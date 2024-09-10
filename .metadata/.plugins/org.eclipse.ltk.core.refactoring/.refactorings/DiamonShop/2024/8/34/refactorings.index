@@ -1,0 +1,14 @@
+1724052486795	Rename package 'DiamondShop.dto'
+1724123199671	Rename resource 'slides'
+1724123232202	Move 'bootstrap_free-ecommerce.png' to 'slide'
+1724123248247	Move 'bootstrap-templates.png' to 'slide'
+1724123257252	Move 2 resources to 'slide'
+1724123428074	Rename package 'DiamondShop.UserController'
+1724123507245	Delete element
+1724123623871	Rename type 'HomeDao'
+1724123730298	Delete element
+1724123895167	Rename package 'DiamondShop.Service.User'
+1724129054156	Rename type 'IHome'
+1724129082380	Rename type 'HomeImpl'
+1724229003425	Delete element
+1724230961660	Rename type 'Categories'

@@ -1,0 +1,12 @@
+package DiamondShop.Service.User;
+
+import java.util.List;
+
+import DiamondShop.Dto.ProductsDto;
+
+public class ProductServiceImpl implements IProductService {
+	@Override
+	public List<ProductsDto> GetProductByID(int id) {
+		return GetProductByID(id);
+	}
+}

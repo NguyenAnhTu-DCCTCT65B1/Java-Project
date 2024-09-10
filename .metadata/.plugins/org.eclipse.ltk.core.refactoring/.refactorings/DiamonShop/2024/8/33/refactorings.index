@@ -1,0 +1,31 @@
+1723619463319	Rename resource 'web-config-servlet.xml'
+1723619641730	Move 'index.jsp' to 'WEB-INF'
+1723619813941	Delete element
+1723620367531	Rename package 'DiamonSpringMVC'
+1723620542876	Move 'web.xml' to 'webapp'
+1723620568666	Move 'web.xml' to 'WEB-INF'
+1723620570757	Move 'index.jsp' to 'webapp'
+1723621366412	Move file
+1723621375182	Move 'web.xml' to 'WEB-INF'
+1723621377275	Move 'index.jsp' to 'WEB-INF'
+1723621398754	Move 'index.jsp' to 'webapp'
+1723621503034	Move 'index.jsp' to 'user'
+1723621730034	Move 'views' to 'WEB-INF'
+1723622704819	Rename resource 'WEB-INF'
+1723622790515	Move 'index.jsp' to 'webapp'
+1723622818271	Move 'index.jsp' to 'user'
+1723625251933	Rename resource 'WEB-LNF'
+1723627534690	Move 'index.jsp' to 'webapp'
+1723627848595	Move 'index.jsp' to 'user'
+1723710166355	Move 'admin' to 'user'
+1723796753301	Rename package 'DiamonSpringMVC.Controller'
+1723796786534	Delete element
+1723796848349	Delete element
+1723798872039	Move 'style.css' to 'assets'
+1723798874908	Move 'favicon.ico' to 'assets'
+1723798918537	Copy folder
+1723798972644	Move 5 resources to 'user'
+1723798984135	Move 'favicon.ico' to 'user'
+1723798986202	Move 'style.css' to 'user'
+1723799139680	Move 'assets' to 'webapp'
+1723804420064	Move 'product.jsp' to 'user'

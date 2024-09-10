@@ -1,0 +1,13 @@
+package DiamondShop.Dao;
+
+import java.util.HashMap;
+
+import DiamondShop.Dto.CartDto;
+
+public class CartDao extends BaseDao {
+	public CartDto addCart(int id, HashMap<Integer, CartDto> cart) {
+		CartDto itemCart = new CartDto();
+		
+		return itemCart;
+	}
+}

@@ -1,0 +1,10 @@
+package DiamondShop.Service.User;
+
+import org.springframework.stereotype.Service;
+
+import DiamondShop.Dto.ProductsDto;
+
+@Service
+public interface IProductService {
+	public ProductsDto GetProductByID(int id);
+}

@@ -1,0 +1,5 @@
+package DiamondShop.Service.User;
+
+public interface ICartService {
+
+}

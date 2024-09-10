@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;product.jsp&apos; to &apos;products&apos;" description="Move &apos;product.jsp&apos; to &apos;products&apos;" destination="src/main/webapp/WEB-INF/views/user/products" element1="src/main/webapp/WEB-INF/views/user/product.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1725592523927" updateReferences="true"/>
+</session>

@@ -1,0 +1,15 @@
+package DiamondShop.Dto;
+
+public class CartDto {
+	private int quantity;
+	private double totalPrice;
+	private ProductsDto product;
+
+	public CartDto(int quantity, double totalPrice, ProductsDto product) {
+		super();
+		this.quantity = quantity;
+		this.totalPrice = totalPrice;
+		this.product = product;
+	}
+
+}
