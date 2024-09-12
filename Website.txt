@@ -1,0 +1,49 @@
+1. Trang chủ
+- Banner Chính:
+  + Hình ảnh của các mẫu sản phẩm nổi bật.
+  + Ưu đãi đặc biệt (ví dụ: "Giảm giá 50% khi đặt online").
+
+- Danh Mục Sản Phẩm: Phân loại sản phẩm theo danh mục chính như: Fashion, watches, Fine Jewelry, Loose Diamonds, ...
+
+- Sản Phẩm Nổi Bật: Hiển thị các sản phẩm bán chạy, sản phẩm mới, hoặc sản phẩm phổ biến.
+
+- Ưu Đãi: Thông tin về các chương trình giảm giá đặc biệt.
+
+- Số điện thoại, email hỗ trợ khách hàng.
+
+2. Trang Danh Mục Sản Phẩm
+- Danh Sách Sản Phẩm:
+  + Hiển thị hình ảnh, tên, giá và chức năng "Add to cart".
+  + Bộ lọc sản phẩm theo giá, thương hiệu, độ phổ biến,...
+
+- Bộ Lọc & Sắp Xếp: Tùy chọn sắp xếp theo giá tăng dần/giảm dần, độ phổ biến, đánh giá cao,...
+
+3. Trang Sản Phẩm Chi Tiết
+- Hình Ảnh Sản Phẩm
+
+- Thông Tin Sản Phẩm:
+  + Tên sản phẩm, giá cả, màu sắc.
+  + Thông số (kích thước, trọng lượng, chất liệu,...).
+  + Các sản phẩm liên quan.
+
+- Tùy Chọn Mua Hàng: Nút thêm vào giỏ hàng.
+
+4. Trang Giỏ Hàng
+- Danh Sách Sản Phẩm:
+  + Hình ảnh, tên, giá và số lượng sản phẩm trong giỏ hàng.
+  + Tùy chọn thay đổi số lượng hoặc xóa sản phẩm.
+
+- Tính Toán Chi Phí:
+  + Tổng giá trị đơn hàng.
+  + Tổng số tiền phải thanh toán.
+
+5. Chức Năng Bổ Sung
+- Thêm - Chỉnh sửa - Xóa - Tính tổng giỏ hàng.
+
+- Chức năng thanh toán.
+
+- Tài Khoản Khách Hàng: giao diện đăng ký và đăng nhập tài khoản.
+
+Ngôn ngữ sử dụng: Java
+Database: mysql
+Framework: Spring MVC
