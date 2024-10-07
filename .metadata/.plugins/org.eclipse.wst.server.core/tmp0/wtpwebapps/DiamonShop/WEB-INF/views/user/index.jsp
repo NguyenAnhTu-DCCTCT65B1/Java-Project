@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@include file="/WEB-INF/views/layouts/user/taglib..jsp"%>
+<%@include file="/WEB-INF/views/layouts/user/taglib.jsp"%>
 <title>Trang chủ</title>
 <body>
 	<div class="row">
@@ -20,10 +20,9 @@
 			</div>
 
 			<div class="well well-small alert alert-warning cntr">
-				<h2>50% Discount</h2>
+				<h2>Thông báo giảm giá</h2>
 				<p>
-					only valid for online order. <br> <br> <a
-						class="defaultBtn" href="#">Click here </a>
+					Hiện tại chưa có thông tin giảm giá nào<br> <br>
 				</p>
 			</div>
 			<div class="well well-small">
@@ -32,56 +31,42 @@
 					alt="payment method paypal"></a>
 			</div>
 
-			<a class="shopBtn btn-block" href="#">Upcoming products <br>
-				<small>Click to view</small></a> <br> <br>
 			<ul class="nav nav-list promowrapper">
 				<li>
 					<div class="thumbnail">
-						<a class="zoomTool" href="product_details.html"
-							title="add to cart"><span class="icon-search"></span> QUICK
-							VIEW</a> <img src="assets/img/bootstrap-ecommerce-templates.png"
+						<img src="<c:url value="/assets/user/img/bootstrap-ecommerce-templates.PNG"/>"
 							alt="bootstrap ecommerce templates">
-						<div class="caption">
-							<h4>
-								<a class="defaultBtn" href="product_details.html">VIEW</a> <span
-									class="pull-right">$22.00</span>
-							</h4>
-						</div>
 					</div>
 				</li>
 				<li style="border: 0">&nbsp;</li>
 				<li>
 					<div class="thumbnail">
-						<a class="zoomTool" href="product_details.html"
-							title="add to cart"><span class="icon-search"></span> QUICK
-							VIEW</a> <img src="assets/img/shopping-cart-template.png"
+						<img src="<c:url value="/assets/user/img/shopping-cart-template.PNG"/>"
 							alt="shopping cart template">
-						<div class="caption">
-							<h4>
-								<a class="defaultBtn" href="product_details.html">VIEW</a> <span
-									class="pull-right">$22.00</span>
-							</h4>
-						</div>
 					</div>
 				</li>
 				<li style="border: 0">&nbsp;</li>
 				<li>
 					<div class="thumbnail">
-						<a class="zoomTool" href="product_details.html"
-							title="add to cart"><span class="icon-search"></span> QUICK
-							VIEW</a> <img
-							src="<c:url value="/assets/user/img/bootstrap-template.png"/>"
+						 <img src="<c:url value="/assets/user/img/bootstrap-template.png"/>"
 							alt="bootstrap template">
-						<div class="caption">
-							<h4>
-								<a class="defaultBtn" href="product_details.html">VIEW</a> <span
-									class="pull-right">$22.00</span>
-							</h4>
-						</div>
+					</div>
+				</li>
+				<li style="border: 0">&nbsp;</li>
+				<li>
+					<div class="thumbnail">
+						 <img src="<c:url value="/assets/user/img/j.jpg"/>"
+							alt="bootstrap template">
+					</div>
+				</li>
+				<li style="border: 0">&nbsp;</li>
+				<li>
+					<div class="thumbnail">
+						 <img src="<c:url value="/assets/user/img/c.jpg"/>"
+							alt="bootstrap template">
 					</div>
 				</li>
 			</ul>
-
 		</div>
 		<div class="span9">
 			<div class="well np">
@@ -98,10 +83,6 @@
 								src="<c:url value="/assets/user/img/slide/${item.img}"/>"
 								alt="bootstrap ecommerce templates">
 							<div class="carousel-caption">
-								<h4>${item.caption}</h4>
-								<p>
-									<span>${item.content}</span>
-								</p>
 							</div>
 					</div>
 					</c:forEach>
@@ -126,9 +107,7 @@ New Products
 									<c:forEach var="item" items="${ products }" varStatus="loop">
 										<li class="span3">
 											<div class="thumbnail">
-												<a class="zoomTool" href="product_details.html"
-													title="add to cart"><span class="icon-search"></span>
-													QUICK VIEW</a> <a href="product_details.html"><img
+											<a href="<c:url value="/chi-tiet-san-pham/${item.id_product}"/>"><img
 													src="<c:url value="/assets/user/img/${ item.img }"/>"
 													alt=""></a>
 											</div>
@@ -157,8 +136,9 @@ New Products
 	-->
 		<div class="well well-small">
 			<h3>
-				<a class="btn btn-mini pull-right" href="products.html"
-					title="View more">VIew More<span class="icon-plus"></span></a> Sản
+				<a class="btn btn-mini pull-right" href="javascript:void(0);" class="shopBtn btn-large"
+					onclick="window.location.href='/DiamonShop/san-pham';"
+					title="Xem thêm">Xem thêm <span class="icon-plus"></span></a> Sản
 				phẩm nổi bật
 			</h3>
 			<hr class="soften" />
@@ -168,14 +148,13 @@ New Products
 						<c:forEach var="item" items="${ products }" varStatus="loop">
 							<li class="span4">
 								<div class="thumbnail">
-									<a class="zoomTool" href="#" title="add to cart"><span
-										class="icon-search"></span> QUICK VIEW</a> <a
+									<a
 										href="chi-tiet-san-pham/${ item.id_product }"><img
 										src="<c:url value="/assets/user/img/${ item.img }"/>" alt=""></a>
 									<div class="caption">
 										<h5>${ item.name }</h5>
 										<h4>
-											<a class="defaultBtn" href="product_details.html"
+											<a class="defaultBtn" href="<c:url value="/chi-tiet-san-pham/${item.id_product}"/>"
 												title="Click to view"><span class="icon-zoom-in"></span></a>
 											<a class="shopBtn" href="<c:url value="/AddCart/${ item.id_product }"/> " title="add to cart"><span
 												class="icon-plus"></span></a> <span class="pull-right"><fmt:formatNumber
@@ -195,11 +174,6 @@ New Products
 				</c:forEach>
 				</c:if>
 			</div>
-		</div>
-		<hr>
-		<div class="well well-small">
-			<a class="btn btn-mini pull-right" href="#">Xem thêm <span
-				class="icon-plus"></span></a> Tất cả sản phẩm
 		</div>
 	</div>
 	</div>

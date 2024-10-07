@@ -1,5 +1,0 @@
-package DiamondShop.Service;
-
-public interface ICartService {
-
-}
